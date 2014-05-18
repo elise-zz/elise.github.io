@@ -1,0 +1,176 @@
+/* Responsive media screen css */
+
+@media (min-width: 768px) and (max-width: 959px) { 
+	body {
+		min-width:768px;
+	}
+	
+	.wrapper, .intro-text {
+	min-width: 88%;
+	width: 88%;
+	padding:0 6%;
+	}
+	
+	.testimonials-slide {
+	width:768px;
+	margin-right:192px;
+	}
+	
+	.testimonials-slide p {
+	width:45%;
+	
+	}
+	
+	#tabs ul li {
+		zoom:0.76;
+	}
+	
+
+}
+
+@media (max-width: 767px) { 
+	body {
+		min-width:300px;
+	}
+	
+	.wrapper {
+	min-width: 88%;
+	width: 88%;
+	padding:0 6%;
+	}
+
+	.intro-text {
+	min-width: 88%;
+	width: 88%;
+	padding:0 6%;
+	}
+	
+	ul.rslides li img {
+	min-height:1000px;	
+	}
+	
+	.column {
+		width:80%;
+		margin:0 auto;
+		float:none;
+		margin-top:30px;
+	}
+	
+	.wrapper .left-box, .wrapper .right-box {
+		width:100%;
+		float:none;
+		margin:0 auto;
+		margin-top:30px;
+	}
+	
+	#tabs ul li {
+		zoom:0.8;
+	}
+	
+	.testimonials-slide {
+	width:320px;
+	margin-right:640px;
+	}
+	
+	.testimonials-intro {
+		margin:0 auto;
+		width:300px;
+	}
+	
+	.testimonials-slide p {
+	width:250px;
+	
+	}
+	
+	.testimonials-slide img {
+	float:none;
+	margin:0 auto;
+	text-align:center;
+	font-size:22px;
+	padding: 0 0px 15px;
+	}
+
+	.testimonials-slide p {
+	float:none;
+	text-align:center;
+	font-size:22px;
+	padding: 0 0px 15px;
+	}
+	
+	.prices, .featured-price {
+	zoom: 1 !important;
+	margin-top:20px !important;
+	margin-bottom:30px;
+	float:none;
+	margin-left:auto;
+	margin-right:auto;
+	}
+	
+
+}
+
+
+@media (max-width: 510px) { 
+	
+	.intro-text {
+		text-align: center;
+	}
+	
+	.intro-text p {
+		font-size: 18px;
+	}
+	
+	.intro-text h2 {
+		font-size: 24px;
+	}
+	
+	ul.rslides li img {
+	min-height:1000px;	
+	}
+	
+	
+	img.iphone {
+	margin: 0 auto;
+	float: none;
+	text-align: center;
+	display: block;
+	}
+
+}
+
+@media (max-width: 475px) { 
+		ul.rslides li img {
+	min-height:1200px;	
+	}
+	
+
+}
+
+
+
+/* Responsive header menu */
+
+@media (min-width: 880px) and (max-width: 959px) { 
+	#nav li {
+	margin: 0 10px 0;
+	display: inline;
+	}
+	
+}
+
+@media (max-width: 879px) { 
+	header {
+		padding-bottom:19px;
+	}
+	
+	#menu, .menu {
+	display: block;
+	}
+	
+	#nav {
+	display: none;
+	}	
+	
+}
+
+

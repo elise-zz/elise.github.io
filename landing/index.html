@@ -11,22 +11,22 @@
 <title>Landing page</title>
 
 <!-- CSS -->
-<link href="landing/css/style.css" rel="stylesheet" type="text/css" />
-<link href="landing/css/responsive.css" rel="stylesheet" type="text/css" />
-<link href="landing/form/form.css" rel="stylesheet" type="text/css" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href="css/responsive.css" rel="stylesheet" type="text/css" />
+<link href="form/form.css" rel="stylesheet" type="text/css" />
 
 <!-- Google Webfonts -->
 <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
 
 <!-- Scripts -->
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
-<script type="text/javascript" src="landing/js/scripts.js"></script><!-- You can modify this file content with your classes -->
+<script type="text/javascript" src="js/scripts.js"></script><!-- You can modify this file content with your classes -->
 <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
-<script type="text/javascript" src="landing/js/parallax/jquery.parallax-1.1.3.js"></script>
-<script type="text/javascript" src="landing/js/parallax/jquery.localscroll-1.2.7-min.js"></script>
-<script type="text/javascript" src="landing/js/parallax/jquery.scrollTo-1.4.2-min.js"></script>
-<script type="text/javascript" src="landing/js/slide/responsiveslides.min.js"></script>
-<script type="text/javascript" src="landing/js/slide/slides.min.jquery.js"></script>
+<script type="text/javascript" src="js/parallax/jquery.parallax-1.1.3.js"></script>
+<script type="text/javascript" src="js/parallax/jquery.localscroll-1.2.7-min.js"></script>
+<script type="text/javascript" src="js/parallax/jquery.scrollTo-1.4.2-min.js"></script>
+<script type="text/javascript" src="js/slide/responsiveslides.min.js"></script>
+<script type="text/javascript" src="js/slide/slides.min.jquery.js"></script>
 	
 </head>
 
@@ -36,13 +36,14 @@
 	<header>
 		<!--open .wrapper-->
 		<div class="wrapper">
-			<a href="#intro"><div class="logo inline"></div></a>
+			<a href="#intro"><div class="logo"></div></a>
 			<ul id="nav">
 				<li><a href="#intro" title="Next Section">Home</a></li>
 				<li><a href="#overview" title="Next Section">Overview</a></li>
 			    <li><a href="#features" title="Next Section">Features</a></li>
-			    <li><a href="#testimonials" title="Next Section">Team</a></li>
+			    <li><a href="#testimonials" title="Next Section">Testimonials</a></li>
 			    <li><a href="#subscribe" title="Next Section">Newsletter</a></li>
+			    <li><a href="#pricing" title="Next Section">Pricing</a></li>
 			    <li><a href="#contact" title="Next Section">Contact</a></li>
 			</ul>
 			<div id="menu"></div>
@@ -51,8 +52,9 @@
 					<li><a href="#intro" title="Next Section">Home</a></li>
 					<li><a href="#overview" title="Next Section">Overview</a></li>
 				    <li><a href="#features" title="Next Section">Features</a></li>
-				    <li><a href="#testimonials" title="Next Section">Team</a></li>
+				    <li><a href="#testimonials" title="Next Section">Testimonials</a></li>
 				    <li><a href="#subscribe" title="Next Section">Newsletter</a></li>
+				    <li><a href="#pricing" title="Next Section">Pricing</a></li>
 				    <li><a href="#contact" title="Next Section">Contact</a></li>
 				</ul>
 			
@@ -65,20 +67,20 @@
 	<div id="intro">
 		<!--open slideshow-->
 		<ul class="rslides" id="slide">
-			   <li><img src="landing/images/slides/1.jpg" alt="" /></li>
-			   <li><img src="landing/images/slides/2.jpg" alt="" /></li>
-			   <li><img src="landing/images/slides/3.jpg" alt="" /></li>
-			   <li><img src="landing/images/slides/5.jpg" alt="" /></li>
-			   <li><img src="landing/images/slides/6.jpg" alt="" /></li>
+			   <li><img src="images/slides/1.jpg" alt="" /></li>
+			   <li><img src="images/slides/2.jpg" alt="" /></li>
+			   <li><img src="images/slides/3.jpg" alt="" /></li>
+			   <li><img src="images/slides/4.jpg" alt="" /></li>
 		</ul>
 		<!--close slideshow-->
 		<!--open content of intro-->
 		<div class="intro-wrapper">
 				<div class="intro-text">
-				<img class="iphone" src="landing/images/content/responsive.png">
-					<h2>Coming Soon.<br> A new front-end framework!</h2>
-			        <p>The front-end framework for agile elegant and responsive development</p>
-			        <p>Our team is working so hard so that your can enjoy this very soon.. </p>
+			    	<img class="iphone" src="images/content/iphone.png" alt="" />
+					<h2>Our app is now avaliable!</h2>
+			        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed semper, turpis ac faucibus imperdiet, orci ligula convallis tellus, ac posuere arcu ligula at massa.</p>
+			        <p>Ut quis neque vel purus ullamcorper posuere. Mauris sed lacus in lorem bibendum adipiscing. Nulla dignissim tempus arcu, a pretium purus imperdiet sit amet.  </p>
+			        <a href="#"><div class="button green">Download now</div></a>
 			        <div class="clear"></div>
 		        </div>
 		</div> 
@@ -98,22 +100,22 @@
 	    		<!--open gallery-->
 				<div id="gallery">
 					<div class="gallery-item">
-						<a href="landing/images/shots/image1.png" class="lightbox_trigger"><img src="landing/images/shots/image1.png" alt="" /></a>
+						<a href="images/shots/image1.png" class="lightbox_trigger"><img src="images/shots/image1.png" alt="" /></a>
 					</div>
 					<div class="gallery-item">
-						<a href="landing/images/shots/image2.png" class="lightbox_trigger"><img src="landing/images/shots/image2.png" alt="" /></a>
+						<a href="images/shots/image2.png" class="lightbox_trigger"><img src="images/shots/image2.png" alt="" /></a>
 					</div>
 					<div class="gallery-item">
-						<a href="landing/images/shots/image3.png" class="lightbox_trigger"><img src="landing/images/shots/image3.png" alt="" /></a>
+						<a href="images/shots/image3.png" class="lightbox_trigger"><img src="images/shots/image3.png" alt="" /></a>
 					</div>
 					<div class="gallery-item">
-						<a href="landing/images/shots/image4.png" class="lightbox_trigger"><img  src="landing/images/shots/image4.png" alt="" /></a>
+						<a href="images/shots/image4.png" class="lightbox_trigger"><img  src="images/shots/image4.png" alt="" /></a>
 					</div>
 					<div class="gallery-item">
-						<a href="landing/images/shots/image5.png" class="lightbox_trigger"><img  src="landing/images/shots/image5.png" alt="" /></a>
+						<a href="images/shots/image5.png" class="lightbox_trigger"><img  src="images/shots/image5.png" alt="" /></a>
 					</div>
 					<div class="gallery-item">
-						<a href="landing/images/shots/image6.png" class="lightbox_trigger"><img  src="landing/images/shots/image6.png" alt="" /></a>
+						<a href="images/shots/image6.png" class="lightbox_trigger"><img  src="images/shots/image6.png" alt="" /></a>
 					</div>
 				</div>
 				<!--close gallery-->		    		
@@ -210,17 +212,17 @@
 			<h2>Testimonials</h2>
 			<div class="testimonials-intro">
 				<div class="testimonials-slide">
-					<img src="landing/images/content/person-1.png" alt="" />
+					<img src="images/content/person-1.png" alt="" />
 		            <p><i> Maecenas ligula eros, blandit nec, pharetra at, semper at, magna.Duis cursus.</i></p>
 		            <p><strong>Lorem Ipsum</strong>, Themeforest</p>
 		        </div>
 		        <div class="testimonials-slide">
-		       		<img src="landing/images/content/person-2.png" alt="" />
+		       		<img src="images/content/person-2.png" alt="" />
 		            <p><i>Ut id augue id lacus ultrices dapibus nec sed turpis. Suspendisse cursus metus quis purus euismod tempus.</i></p>
 		            <p><strong>Lorem Ipsum</strong>, Themeforest</p>
 		        </div>
 		        <div class="testimonials-slide">
-		            <img src="landing/images/content/person-3.png" alt="" />
+		            <img src="images/content/person-3.png" alt="" />
 		            <p><i>Nulla facilisi. Praesent viverra justo vitae neque. Praesent blandit adipiscing velit. </i></p>
 		            <p><strong>Lorem Ipsum</strong>, Themeforest</p>
 		        </div>
@@ -240,7 +242,7 @@
 	                        
 	            <!-- Integration with MailChimp. See documentation -->
 	            <form id="subscription" name="subscription" action="#" method="post" >
-	            	<input type="text" name="EMAIL" value="" placeholder="eliselibraryproject@gmail.com" />
+	            	<input type="text" name="EMAIL" value="" placeholder="yourname@yourdomain.com" />
 	            	<input type="submit" name="subscribe" id="submit" value="Subscribe" />
 	            </form>
 		</div>
@@ -248,7 +250,64 @@
 	</div> 
 	<!-- close #subscribe-->
 	
-
+	<!--open #pricing-->
+	<div id="pricing">
+		<!--open .wrapper--> 
+		<div class="wrapper">
+			<h2>Pricing</h2>
+			<blockquote class="big">Ut id augue id lacus ultrices dapibus nec sed turpis. Suspendisse cursus metus quis purus euismod tempus.</blockquote>
+			<!--open .column--> 
+	        <div class="column">
+	    		<div class="prices">
+		            <h3>Basic</h3>
+		            <p class="price">$29</p>
+		            <p class="period">Per Month</p>
+		            <ul class="pricing-details">
+		            	<li>20 GB Cloud Serve</li>
+		            	<li>Dialy Backup</li>
+		            	<li>5 Email Accounts</li>
+		            	<li>20 kisses</li>
+		            </ul>
+		            <div class="button green">Buy now</div>
+	            </div>
+	        </div>
+	        <!--close .column-->
+			<!--open .column--> 
+	        <div class="column">
+	    		<div class="featured-price">
+		            <h3>Standard</h3>
+		            <p class="price">$49</p>
+		            <p class="period">Per Month</p>
+		            <ul class="pricing-details">
+		            	<li>100 GB Cloud Serve</li>
+		            	<li>Dialy Backup</li>
+		            	<li>50 Email Accounts</li>
+		            	<li>200 kisses</li>
+		            </ul>
+		            <div class="button green">Buy now</div>
+	            </div>
+	        </div>
+	        <!--close .column--> 
+			<!--open .column--> 
+	        <div class="column">
+	    		<div class="prices">
+		            <h3>Advanced</h3>
+		            <p class="price">$79</p>
+		            <p class="period">Per Month</p>
+		            <ul class="pricing-details">
+		            	<li>200 GB Cloud Serve</li>
+		            	<li>Dialy Backup</li>
+		            	<li>1000 Email Accounts</li>
+		            	<li>2000 kisses</li>
+		            </ul>
+		            <div class="button green">Buy now</div>
+	            </div>
+	        </div>
+	        <!--close .column--> 
+	    </div> 
+	    <!--close .wrapper-->  
+	</div> 
+	<!--close #pricing-->
 	
 	<!-- open #contact-->
 	<div id="contact">
@@ -286,13 +345,13 @@
 		<!--open .wrapper-->
 		<div class="wrapper">
 			<ul class="social">
-			<li><a href="#"><img src="landing/images/social/white/googleplus.png" alt="" /></a></li>
-			<li><a href="#"><img src="landing/images/social/white/twitter.png" alt="" /></a></li>
-			<li><a href="#"><img src="landing/images/social/white/facebook.png" alt="" /></a></li>
-			<li><a href="#"><img src="landing/images/social/white/linkedin.png" alt="" /></a></li>
-			<li><a href="#"><img src="landing/images/social/white/pinterest.png" alt="" /></a></li>
-			<li><a href="#"><img src="landing/images/social/white/vimeo.png" alt="" /></a></li>
-			<li><a href="#"><img src="landing/images/social/white/dribbble.png" alt="" /></a></li>
+			<li><a href="#"><img src="images/social/white/googleplus.png" alt="" /></a></li>
+			<li><a href="#"><img src="images/social/white/twitter.png" alt="" /></a></li>
+			<li><a href="#"><img src="images/social/white/facebook.png" alt="" /></a></li>
+			<li><a href="#"><img src="images/social/white/linkedin.png" alt="" /></a></li>
+			<li><a href="#"><img src="images/social/white/pinterest.png" alt="" /></a></li>
+			<li><a href="#"><img src="images/social/white/vimeo.png" alt="" /></a></li>
+			<li><a href="#"><img src="images/social/white/dribbble.png" alt="" /></a></li>
 			</ul>
 		</div>
 		<!--close .wrapper-->

@@ -1,0 +1,29 @@
+/* AJAX Gif y mensajes de exito o fracaso */
+.hide{
+    display: none;
+}
+.ajaxgif{
+    position: absolute;
+    right: 150px;
+    top: 5px;
+}
+.msg {
+	//margin-top:10px;
+	//padding:15px;
+	border-radius:3px;
+	border:none;
+	display:block;
+	width:auto;
+	font-size:18px;
+	color:white;
+	margin:20px auto 0;
+	cursor:pointer;
+}
+.msg_ok{
+	font-family:'Roboto', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+	color:#848484;
+}
+.msg_error{
+	font-family:'Roboto', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    color:#848484;
+}

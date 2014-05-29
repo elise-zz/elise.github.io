@@ -1,305 +1,382 @@
 <!DOCTYPE html>
-
 <html xmlns="http://www.w3.org/1999/xhtml">
-
 <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- Title of Landing Page -->
+    <title>Elise Library</title>
 
-<!-- Title of Landing Page -->
-<title>Landing page</title>
+	<link rel="shortcut icon" href="landing/images/content/logo.png">
 
-<!-- CSS -->
-<link href="landing/css/style.css" rel="stylesheet" type="text/css" />
-<link href="landing/css/responsive.css" rel="stylesheet" type="text/css" />
-<link href="landing/form/form.css" rel="stylesheet" type="text/css" />
+    <!-- CSS -->
+    <link href="landing/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="landing/css/responsive.css" rel="stylesheet" type="text/css" />
+    <link href="landing/form/form.css" rel="stylesheet" type="text/css" />
 
-<!-- Google Webfonts -->
-<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
+    <!-- Google Webfonts -->
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
 
-<!-- Scripts -->
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
-<script type="text/javascript" src="landing/js/scripts.js"></script><!-- You can modify this file content with your classes -->
-<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
-<script type="text/javascript" src="landing/js/parallax/jquery.parallax-1.1.3.js"></script>
-<script type="text/javascript" src="landing/js/parallax/jquery.localscroll-1.2.7-min.js"></script>
-<script type="text/javascript" src="landing/js/parallax/jquery.scrollTo-1.4.2-min.js"></script>
-<script type="text/javascript" src="landing/js/slide/responsiveslides.min.js"></script>
-<script type="text/javascript" src="landing/js/slide/slides.min.jquery.js"></script>
-	
+    <!-- Scripts -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+    <script type="text/javascript" src="landing/js/scripts.js"></script>
+    <!-- You can modify this file content with your classes -->
+    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+    <script type="text/javascript" src="landing/js/parallax/jquery.parallax-1.1.3.js"></script>
+    <script type="text/javascript" src="landing/js/parallax/jquery.localscroll-1.2.7-min.js"></script>
+    <script type="text/javascript" src="landing/js/parallax/jquery.scrollTo-1.4.2-min.js"></script>
+    <script type="text/javascript" src="landing/js/slide/responsiveslides.min.js"></script>
+    <script type="text/javascript" src="landing/js/slide/slides.min.jquery.js"></script>
 </head>
-
 <body>
+    <!--open header-->
+    <header>
+        <!--open .wrapper-->
+        <div class="wrapper">
+            <a href="#intro">
+                <div class="logo inline"></div>
+            </a>
+            <ul id="nav">
+                <li><a href="#intro" title="Next Section">Home</a>
+                </li>
+                <li><a href="#overview" title="Next Section">Overview</a>
+                </li>
+                <li><a href="#features" title="Next Section">Features</a>
+                </li>
+                <li><a href="#testimonials" title="Next Section">Team</a>
+                </li>
+                <li><a href="#subscribe" title="Next Section">Newsletter</a>
+                </li>
+                <li><a href="#contact" title="Next Section">Contact</a>
+                </li>
+            </ul>
+            <div id="menu"></div>
 
-	<!--open header-->
-	<header>
-		<!--open .wrapper-->
-		<div class="wrapper">
-			<a href="#intro"><div class="logo inline"></div></a>
-			<ul id="nav">
-				<li><a href="#intro" title="Next Section">Home</a></li>
-				<li><a href="#overview" title="Next Section">Overview</a></li>
-			    <li><a href="#features" title="Next Section">Features</a></li>
-			    <li><a href="#testimonials" title="Next Section">Team</a></li>
-			    <li><a href="#subscribe" title="Next Section">Newsletter</a></li>
-			    <li><a href="#contact" title="Next Section">Contact</a></li>
-			</ul>
-			<div id="menu"></div>
-			
-				<ul class="menu">
-					<li><a href="#intro" title="Next Section">Home</a></li>
-					<li><a href="#overview" title="Next Section">Overview</a></li>
-				    <li><a href="#features" title="Next Section">Features</a></li>
-				    <li><a href="#testimonials" title="Next Section">Team</a></li>
-				    <li><a href="#subscribe" title="Next Section">Newsletter</a></li>
-				    <li><a href="#contact" title="Next Section">Contact</a></li>
-				</ul>
-			
-		</div>
-		<!--close .wrapper-->
-	</header>
-	<!--close header-->
-	
-	<!--open #intro-->	
-	<div id="intro">
-		<!--open slideshow-->
-		<ul class="rslides" id="slide">
-			   <li><img src="landing/images/slides/1.jpg" alt="" /></li>
-			   <li><img src="landing/images/slides/2.jpg" alt="" /></li>
-			   <li><img src="landing/images/slides/3.jpg" alt="" /></li>
-			   <li><img src="landing/images/slides/5.jpg" alt="" /></li>
-			   <li><img src="landing/images/slides/6.jpg" alt="" /></li>
-		</ul>
-		<!--close slideshow-->
-		<!--open content of intro-->
-		<div class="intro-wrapper">
-				<div class="intro-text">
-				<img class="iphone" src="landing/images/content/responsive.png">
-					<h2>Coming Soon.<br> A new front-end framework!</h2>
-			        <p>The front-end framework for agile elegant and responsive development</p>
-			        <p>Our team is working so hard so that your can enjoy this very soon.. </p>
-			        <div class="clear"></div>
-		        </div>
-		</div> 
-		<!--close content of intro-->
-	</div> 
-	<!--close #intro-->
-		
-	<!--open #overview-->
-	<div id="overview">
-		<!--open .wrapper-->
-		<div class="wrapper">
-	    		<h2>Overview</h2>
-	    		<blockquote class="big"><i>Maecenas ligula eros, blandit nec, pharetra at, semper at, magna.</i></blockquote>
-	    		<p>Pellentesque feugiat urna quis nunc malesuada molestie. Mauris fringilla bibendum sem eu scelerisque. <a href="#">Morbi rutrum</a>, lorem sit amet gravida sodales, sapien sem mattis orci, vel consequat libero urna eu augue. Sed sed egestas nunc. Pellentesque fermentum mauris semper pellentesque dapibus. Aliquam semper dolor eget risus convallis mattis. Nulla facilisi.</p>
-	    		
-	    		<h3>Gallery</h3>
-	    		<!--open gallery-->
-				<div id="gallery">
-					<div class="gallery-item">
-						<a href="landing/images/shots/image1.png" class="lightbox_trigger"><img src="landing/images/shots/image1.png" alt="" /></a>
-					</div>
-					<div class="gallery-item">
-						<a href="landing/images/shots/image2.png" class="lightbox_trigger"><img src="landing/images/shots/image2.png" alt="" /></a>
-					</div>
-					<div class="gallery-item">
-						<a href="landing/images/shots/image3.png" class="lightbox_trigger"><img src="landing/images/shots/image3.png" alt="" /></a>
-					</div>
-					<div class="gallery-item">
-						<a href="landing/images/shots/image4.png" class="lightbox_trigger"><img  src="landing/images/shots/image4.png" alt="" /></a>
-					</div>
-					<div class="gallery-item">
-						<a href="landing/images/shots/image5.png" class="lightbox_trigger"><img  src="landing/images/shots/image5.png" alt="" /></a>
-					</div>
-					<div class="gallery-item">
-						<a href="landing/images/shots/image6.png" class="lightbox_trigger"><img  src="landing/images/shots/image6.png" alt="" /></a>
-					</div>
-				</div>
-				<!--close gallery-->		    		
-	    </div> 
-	    <!--close .wrapper-->  
-	</div> 
-	<!--close #overview-->
-	
-	<!--open #features-->
-	<div id="features">
-		<!--open .wrapper--> 
-		<div class="wrapper">
-			<h2>Features</h2>
-			<!--open .column--> 
-	        <div class="column">
-	    		<div class="featured-1"></div>
-	            <h3>Design your landing page</h3>
-	            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nibh erat, sagittis sit amet congue at, aliquam eu libero.</p>
-	        </div>
-	        <!--close .column--> 
-	        <!--open .column--> 
-	    	<div class="column">
-	    		<div class="featured-2"></div>
-	            <h3>Easy Customization</h3>
-	            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nibh erat, sagittis sit amet congue at, aliquam eu libero. </p>
-	        </div>
-	        <!--close .column--> 
-	        <!--open .column--> 
-	    	<div class="column">
-	    		<div class="featured-3"></div>
-	            <h3>Responsive layout</h3>
-	            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nibh erat, sagittis sit amet congue at, aliquam eu libero.</p>
-	        </div>
-	        <!--close .column--> 
-	    </div> 
-	    <!--close .wrapper-->  
-	</div> 
-	<!--close #features-->
-	
-	<!--open #more-features-->
-	<div id="more-features">
-		<!-- open .wrapper-->
-		<div class="wrapper">
-			<!-- open .left-box-->
-			<div class="left-box">
-	        	<h3>Tabs</h3>
-				<div id="tabs">
-				  <ul>
-				    <li><a href="#tabs-1">Nunc tincidunt</a></li>
-				    <li><a href="#tabs-2">Proin dolor</a></li>
-				    <li><a href="#tabs-3">Aenean lacinia</a></li>
-				  </ul>
-				  <div id="tabs-1">
-				    <p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. </p>
-				    <p class="alignright"><i>Theodore Magnus, The country</i></p>
-				  </div>
-				  <div id="tabs-2">
-				    <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. </p>
-				    <p class="alignright"><i>Lorem Ipsum, 1967</i></p>
-				  </div>
-				  <div id="tabs-3">
-				    <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
-				    <p class="alignright"><i>Lauren Augustus, 1991</i></p>
-				  </div>
-				</div>
-				<h3>Buttons</h3>  
-	            <div class="button green">Download now</div><div class="button red">Read more...</div><div class="button" >View blog</div>
-	        </div>
-	        <!-- close .left-box-->
-	        <!-- open .right-box-->
-			<div class="right-box">
-	        	<h3>Blockquotes</h3>
-	            <blockquote>This is a blockquote example. Maecenas ligula eros, blandit nec, pharetra at, semper at, magna.Duis cursus. Maecenas ligula eros, blandit nec, pharetra at, semper at, magna. Nullam ac lacus. Nulla facilisi. Praesent viverra justo vitae neque. Praesent blandit adipiscing velit. </blockquote>
-	            <h3>Lists</h3>
-            	<ul class="content">
-		            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-		            <li>Ut id augue id lacus ultrices dapibus nec sed turpis.</li> 
-		            <li>Suspendisse cursus metus quis purus euismod tempus. </li>
-		            <li>Quisque non congue elit, quis posuere ante. </li>
-		            <li>Nunc interdum risus quis ligula fermentum tempor. </li>
-		            <li>Maecenas vehicula nunc nec ante vestibulum, eget cursus metus placerat. </li>
-	            </ul>  
-	        </div>
-	        <!-- close .right-box-->
-	    </div> 
-	    <!--close .wrapper-->  
-	</div> 
-	<!-- close #more-features-->
-	
-	<!--open #testimonials-->
-	<div id="testimonials">
-		<!--open .wrapper--> 
-		<div class="wrapper">
-			<h2>Testimonials</h2>
-			<div class="testimonials-intro">
-				<div class="testimonials-slide">
-					<img src="landing/images/content/person-1.png" alt="" />
-		            <p><i> Maecenas ligula eros, blandit nec, pharetra at, semper at, magna.Duis cursus.</i></p>
-		            <p><strong>Lorem Ipsum</strong>, Themeforest</p>
-		        </div>
-		        <div class="testimonials-slide">
-		       		<img src="landing/images/content/person-2.png" alt="" />
-		            <p><i>Ut id augue id lacus ultrices dapibus nec sed turpis. Suspendisse cursus metus quis purus euismod tempus.</i></p>
-		            <p><strong>Lorem Ipsum</strong>, Themeforest</p>
-		        </div>
-		        <div class="testimonials-slide">
-		            <img src="landing/images/content/person-3.png" alt="" />
-		            <p><i>Nulla facilisi. Praesent viverra justo vitae neque. Praesent blandit adipiscing velit. </i></p>
-		            <p><strong>Lorem Ipsum</strong>, Themeforest</p>
-		        </div>
-			</div>
-	    </div> 
-	    <!--close .wrapper-->  
-	</div> 
-	<!--close #testimonials-->
-	
-	<!-- open #subscribe-->
-	<div id="subscribe">
-		<!--open .wrapper-->
-		<div class="wrapper">
-	        	<h2>Subscribe to our newsletter</h2>
-	            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-	            <p>Ut id augue id lacus ultrices dapibus nec sed turpis. Suspendisse cursus metus quis purus euismod tempus. </p>
-	                        
-	            <!-- Integration with MailChimp. See documentation -->
-	            <form id="subscription" name="subscription" action="#" method="post" >
-	            	<input type="text" name="EMAIL" value="" placeholder="eliselibraryproject@gmail.com" />
-	            	<input type="submit" name="subscribe" id="submit" value="Subscribe" />
-	            </form>
-		</div>
-		<!--close .wrapper-->
-	</div> 
-	<!-- close #subscribe-->
-	
+            <ul class="menu">
+                <li><a href="#intro" title="Next Section">Home</a>
+                </li>
+                <li><a href="#overview" title="Next Section">Overview</a>
+                </li>
+                <li><a href="#features" title="Next Section">Features</a>
+                </li>
+                <li><a href="#testimonials" title="Next Section">Team</a>
+                </li>
+                <li><a href="#subscribe" title="Next Section">Newsletter</a>
+                </li>
+                <li><a href="#contact" title="Next Section">Contact</a>
+                </li>
+            </ul>
 
-	
-	<!-- open #contact-->
-	<div id="contact">
-		<!-- open .wrapper-->
-		<div class="wrapper">
-			<h2>Contact</h2>
-			<!-- open .left-box-->
-			<div class="left-box">
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id augue id lacus ultrices dapibus nec sed turpis. </p>
-				<form id="contact-form" name="contact-form" method="post">
-					<input type="text" id="name" name="name" value="" placeholder="Your name" />
-	            	<input type="text" id="email" name="email" value="" placeholder="Your email" />
-	            	<input type="text" id="web" name="web" value="" placeholder="Your website" />
-	            	<textarea id="message" name="message" placeholder="Your message"></textarea>
-	            	<img src="form/ajax.gif" class="ajaxgif hide" />
-                	<div class="msg"></div>
-	            	<input type="button" name="submit" id="submit-contact" value="Get in touch" />
-	            </form>			     
-	        </div>
-	        <!-- close .left-box-->
-	        <!-- open .right-box-->
-			<div class="right-box">
-				<p>Suspendisse cursus metus quis purus euismod tempus. Quisque non congue elit, quis posuere ante.</p>
-				<iframe height="300" src="https://maps.google.es/maps?f=q&amp;source=s_q&amp;hl=es&amp;geocode=&amp;q=london&amp;sll=41.692248,1.745868&amp;sspn=2.37082,4.888916&amp;t=m&amp;ie=UTF8&amp;hq=&amp;hnear=Londres,+Reino+Unido&amp;ll=51.5112,-0.11982&amp;spn=0.018696,0.041199&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
-	        </div>
-	        <!-- close .right-box-->
-	        <div class="clear"></div>        
-	    </div> 
-	    <!--close .wrapper-->
-	</div> 
-	<!--close #contact-->
-	
-	<!--open footer-->
-	<footer>
-		<!--open .wrapper-->
-		<div class="wrapper">
-			<ul class="social">
-			<li><a href="#"><img src="landing/images/social/white/googleplus.png" alt="" /></a></li>
-			<li><a href="#"><img src="landing/images/social/white/twitter.png" alt="" /></a></li>
-			<li><a href="#"><img src="landing/images/social/white/facebook.png" alt="" /></a></li>
-			<li><a href="#"><img src="landing/images/social/white/linkedin.png" alt="" /></a></li>
-			<li><a href="#"><img src="landing/images/social/white/pinterest.png" alt="" /></a></li>
-			<li><a href="#"><img src="landing/images/social/white/vimeo.png" alt="" /></a></li>
-			<li><a href="#"><img src="landing/images/social/white/dribbble.png" alt="" /></a></li>
-			</ul>
-		</div>
-		<!--close .wrapper-->
-		<p>All rights reserved ©2013.</p>
-	</footer>
-	<!--close footer-->
-	
-	<script type="text/javascript" src="form/functions.js"></script>
+        </div>
+        <!--close .wrapper-->
+    </header>
+    <!--close header-->
+
+    <!--open #intro-->
+    <div id="intro">
+        <!--open slideshow-->
+        <ul class="rslides" id="slide">
+            <li>
+                <img src="landing/images/slides/1.jpg" alt="" />
+            </li>
+            <li>
+                <img src="landing/images/slides/2.jpg" alt="" />
+            </li>
+            <li>
+                <img src="landing/images/slides/3.jpg" alt="" />
+            </li>
+            <li>
+                <img src="landing/images/slides/5.jpg" alt="" />
+            </li>
+            <li>
+                <img src="landing/images/slides/6.jpg" alt="" />
+            </li>
+        </ul>
+        <!--close slideshow-->
+        <!--open content of intro-->
+        <div class="intro-wrapper">
+            <div class="intro-text">
+                <img class="iphone" src="landing/images/content/responsive.png">
+                <h2>Coming soon
+                    <br>a new front-end framework!</h2>
+                <p>For agile elegant and responsive development</p>
+                <p>Our team <a href="http://github.com/calumet/elise">is working</a> so hard so that you can enjoy this very soon...</p>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <!--close content of intro-->
+    </div>
+    <!--close #intro-->
+
+    <!--open #overview-->
+    <div id="overview">
+        <!--open .wrapper-->
+        <div class="wrapper">
+            <h2>Overview</h2>
+            <blockquote class="big"><i>Maecenas ligula eros, blandit nec, pharetra at, semper at, magna.</i>
+            </blockquote>
+            <p>Pellentesque feugiat urna quis nunc malesuada molestie. Mauris fringilla bibendum sem eu scelerisque. <a href="#">Morbi rutrum</a>, lorem sit amet gravida sodales, sapien sem mattis orci, vel consequat libero urna eu augue. Sed sed egestas nunc. Pellentesque fermentum mauris semper pellentesque dapibus. Aliquam semper dolor eget risus convallis mattis. Nulla facilisi.</p>
+
+            <h3>Gallery</h3>
+            <!--open gallery-->
+            <div id="gallery">
+                <div class="gallery-item">
+                    <a href="landing/images/shots/image1.png" class="lightbox_trigger">
+                        <img src="landing/images/shots/image1.png" alt="" />
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="landing/images/shots/image2.png" class="lightbox_trigger">
+                        <img src="landing/images/shots/image2.png" alt="" />
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="landing/images/shots/image3.png" class="lightbox_trigger">
+                        <img src="landing/images/shots/image3.png" alt="" />
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="landing/images/shots/image4.png" class="lightbox_trigger">
+                        <img src="landing/images/shots/image4.png" alt="" />
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="landing/images/shots/image5.png" class="lightbox_trigger">
+                        <img src="landing/images/shots/image5.png" alt="" />
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="landing/images/shots/image6.png" class="lightbox_trigger">
+                        <img src="landing/images/shots/image6.png" alt="" />
+                    </a>
+                </div>
+            </div>
+            <!--close gallery-->
+        </div>
+        <!--close .wrapper-->
+    </div>
+    <!--close #overview-->
+
+    <!--open #features-->
+    <div id="features">
+        <!--open .wrapper-->
+        <div class="wrapper">
+            <h2>Features</h2>
+            <!--open .column-->
+            <div class="column">
+                <div class="featured-1"></div>
+                <h3>Design your landing page</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nibh erat, sagittis sit amet congue at, aliquam eu libero.</p>
+            </div>
+            <!--close .column-->
+            <!--open .column-->
+            <div class="column">
+                <div class="featured-2"></div>
+                <h3>Easy Customization</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nibh erat, sagittis sit amet congue at, aliquam eu libero.</p>
+            </div>
+            <!--close .column-->
+            <!--open .column-->
+            <div class="column">
+                <div class="featured-3"></div>
+                <h3>Responsive layout</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nibh erat, sagittis sit amet congue at, aliquam eu libero.</p>
+            </div>
+            <!--close .column-->
+        </div>
+        <!--close .wrapper-->
+    </div>
+    <!--close #features-->
+
+    <!--open #more-features-->
+    <div id="more-features">
+        <!-- open .wrapper-->
+        <div class="wrapper">
+            <!-- open .left-box-->
+            <div class="left-box">
+                <h3>Tabs</h3>
+                <div id="tabs">
+                    <ul>
+                        <li><a href="#tabs-1">Nunc tincidunt</a>
+                        </li>
+                        <li><a href="#tabs-2">Proin dolor</a>
+                        </li>
+                        <li><a href="#tabs-3">Aenean lacinia</a>
+                        </li>
+                    </ul>
+                    <div id="tabs-1">
+                        <p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem.</p>
+                        <p class="alignright"><i>Theodore Magnus, The country</i>
+                        </p>
+                    </div>
+                    <div id="tabs-2">
+                        <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor.</p>
+                        <p class="alignright"><i>Lorem Ipsum, 1967</i>
+                        </p>
+                    </div>
+                    <div id="tabs-3">
+                        <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                        <p class="alignright"><i>Lauren Augustus, 1991</i>
+                        </p>
+                    </div>
+                </div>
+                <h3>Buttons</h3>
+                <div class="button green">Download now</div>
+                <div class="button red">Read more...</div>
+                <div class="button">View blog</div>
+            </div>
+            <!-- close .left-box-->
+            <!-- open .right-box-->
+            <div class="right-box">
+                <h3>Blockquotes</h3>
+                <blockquote>This is a blockquote example. Maecenas ligula eros, blandit nec, pharetra at, semper at, magna.Duis cursus. Maecenas ligula eros, blandit nec, pharetra at, semper at, magna. Nullam ac lacus. Nulla facilisi. Praesent viverra justo vitae neque. Praesent blandit adipiscing velit.</blockquote>
+                <h3>Lists</h3>
+                <ul class="content">
+                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                    <li>Ut id augue id lacus ultrices dapibus nec sed turpis.</li>
+                    <li>Suspendisse cursus metus quis purus euismod tempus.</li>
+                    <li>Quisque non congue elit, quis posuere ante.</li>
+                    <li>Nunc interdum risus quis ligula fermentum tempor.</li>
+                    <li>Maecenas vehicula nunc nec ante vestibulum, eget cursus metus placerat.</li>
+                </ul>
+            </div>
+            <!-- close .right-box-->
+        </div>
+        <!--close .wrapper-->
+    </div>
+    <!-- close #more-features-->
+
+    <!--open #testimonials-->
+    <div id="testimonials">
+        <!--open .wrapper-->
+        <div class="wrapper">
+            <h2>Testimonials</h2>
+            <div class="testimonials-intro">
+                <div class="testimonials-slide">
+                    <img src="landing/images/content/person-1.png" alt="" />
+                    <p><i> Maecenas ligula eros, blandit nec, pharetra at, semper at, magna.Duis cursus.</i>
+                    </p>
+                    <p>
+                        <strong>Lorem Ipsum</strong>, Themeforest</p>
+                </div>
+                <div class="testimonials-slide">
+                    <img src="landing/images/content/person-2.png" alt="" />
+                    <p><i>Ut id augue id lacus ultrices dapibus nec sed turpis. Suspendisse cursus metus quis purus euismod tempus.</i>
+                    </p>
+                    <p>
+                        <strong>Lorem Ipsum</strong>, Themeforest</p>
+                </div>
+                <div class="testimonials-slide">
+                    <img src="landing/images/content/person-3.png" alt="" />
+                    <p><i>Nulla facilisi. Praesent viverra justo vitae neque. Praesent blandit adipiscing velit. </i>
+                    </p>
+                    <p>
+                        <strong>Lorem Ipsum</strong>, Themeforest</p>
+                </div>
+            </div>
+        </div>
+        <!--close .wrapper-->
+    </div>
+    <!--close #testimonials-->
+
+    <!-- open #subscribe-->
+    <div id="subscribe">
+        <!--open .wrapper-->
+        <div class="wrapper">
+            <h2>Subscribe to our newsletter</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p>Ut id augue id lacus ultrices dapibus nec sed turpis. Suspendisse cursus metus quis purus euismod tempus.</p>
+
+            <!-- Integration with MailChimp. See documentation -->
+            <form id="subscription" name="subscription" action="#" method="post">
+                <input type="text" name="EMAIL" value="" placeholder="eliselibraryproject@gmail.com" />
+                <input type="submit" name="subscribe" id="submit" value="Subscribe" />
+            </form>
+        </div>
+        <!--close .wrapper-->
+    </div>
+    <!-- close #subscribe-->
+
+
+
+    <!-- open #contact-->
+    <div id="contact">
+        <!-- open .wrapper-->
+        <div class="wrapper">
+            <h2>Contact</h2>
+            <!-- open .left-box-->
+            <div class="left-box">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id augue id lacus ultrices dapibus nec sed turpis.</p>
+                <form id="contact-form" name="contact-form" method="post">
+                    <input type="text" id="name" name="name" value="" placeholder="Your name" />
+                    <input type="text" id="email" name="email" value="" placeholder="Your email" />
+                    <input type="text" id="web" name="web" value="" placeholder="Your website" />
+                    <textarea id="message" name="message" placeholder="Your message"></textarea>
+                    <img src="form/ajax.gif" class="ajaxgif hide" />
+                    <div class="msg"></div>
+                    <input type="button" name="submit" id="submit-contact" value="Get in touch" />
+                </form>
+            </div>
+            <!-- close .left-box-->
+            <!-- open .right-box-->
+            <div class="right-box">
+                <p>Suspendisse cursus metus quis purus euismod tempus. Quisque non congue elit, quis posuere ante.</p>
+                <iframe height="300" src="https://maps.google.es/maps?f=q&amp;source=s_q&amp;hl=es&amp;geocode=&amp;q=london&amp;sll=41.692248,1.745868&amp;sspn=2.37082,4.888916&amp;t=m&amp;ie=UTF8&amp;hq=&amp;hnear=Londres,+Reino+Unido&amp;ll=51.5112,-0.11982&amp;spn=0.018696,0.041199&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
+            </div>
+            <!-- close .right-box-->
+            <div class="clear"></div>
+        </div>
+        <!--close .wrapper-->
+    </div>
+    <!--close #contact-->
+
+    <!--open footer-->
+    <footer>
+        <!--open .wrapper-->
+        <div class="wrapper">
+            <ul class="social">
+                <li>
+                    <a href="#">
+                        <img src="landing/images/social/white/googleplus.png" alt="" />
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="landing/images/social/white/twitter.png" alt="" />
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="landing/images/social/white/facebook.png" alt="" />
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="landing/images/social/white/linkedin.png" alt="" />
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="landing/images/social/white/pinterest.png" alt="" />
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="landing/images/social/white/vimeo.png" alt="" />
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="landing/images/social/white/dribbble.png" alt="" />
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!--close .wrapper-->
+        <p>All rights reserved ©2013.</p>
+    </footer>
+    <!--close footer-->
+
+    <script type="text/javascript" src="form/functions.js"></script>
 </body>
 </html>
